@@ -63,7 +63,7 @@ districtSummaryDF["% Passing Math"] = districtSummaryDF["% Passing Math"].map("{
 districtSummaryDF["% Passing Reading"] = districtSummaryDF["% Passing Reading"].map("{:.2f}%".format)
 districtSummaryDF["% Overall Passing"] = districtSummaryDF["% Overall Passing"].map("{:.2f}%".format)
 
-districtSummaryDF
+print(districtSummaryDF)
 ```
 
 ### School Summary
